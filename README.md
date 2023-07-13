@@ -1,11 +1,9 @@
-# Jmeter-Performance-Testing-Booking-AP.
+# Jmeter-Performance-Testing-Booking-API.
 
-How to extract data for reporting in jmeter
-============================================
 Dear, 
 
-I’ve completed performance test on frequently used API for test App. 
-Test executed for the below mentioned scenario in server 000.000.000.00. 
+I’ve completed performance tests on frequently used APIs for test Apps. 
+Test executed for the below-mentioned scenario in server 000.000.000.00. 
 
 10 Concurrent Request with 10 Loop Count; Avg TPS for Total Samples is ~ 10 And Total Concurrent API requested: 800.
 50 Concurrent Request with 10 Loop Count; Avg TPS for Total Samples is ~ 66.67 And Total Concurrent API requested: 4000.
@@ -17,6 +15,6 @@ Test executed for the below mentioned scenario in server 000.000.000.00.
 2000 Concurrent Request with 10 Loop Count; Avg TPS for Total Samples is ~ 486 And Total Concurrent API requested: 160000.
 2100 Concurrent Request with 10 Loop Count; Avg TPS for Total Samples is ~ 669 And Total Concurrent API requested: 168000.
 
-While executed 2100 concurrent request, found  1548 request got connection timeout and error rate is 0.92%. 
+While executing 2100 concurrent requests, I found 1548 requests got connection timeout And the error rate is 0.92%. 
 
-Summary: Server can handle almost concurrent 164000 API call with almost zero (0) error rate.
+Summary: The server can handle almost concurrent 164000 API calls with nearly zero (0) error rate.
